@@ -1,0 +1,373 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    height: 70px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwKfjWCuXBwwrk5fC9Vy4Fx-o3GWaoeYapcQ&s');
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
+.small {
+    font-size: 12px;
+    color: #CCCCCC;
+    margin-left: 15px;
+
+}
+
+.logo2 {
+    display: flex;
+
+}
+
+.logo2 p {
+    font-size: 14px;
+    color: white;
+}
+
+/* box 3 */
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    width: 600px;
+    height: 40px;
+    background-color: pink;
+    border-radius: 3px;
+}
+
+.nav-search:hover {
+    border: 2px solid yellow;
+
+
+}
+
+.search-select {
+    color: #555555;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    width: 50px;
+    text-align: center;
+    border: none;
+}
+
+.search-input {
+    width: 790px;
+    font-size: 18px;
+    border: none;
+
+}
+
+.icon-search {
+    width: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    background-color: rgb(255, 162, 0);
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    color: black;
+}
+
+/* box 4 */
+.image-flag {
+    width: 30px;
+    height: 30px;
+    background-image: url('https://flagcdn.com/w40/in.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.lang-box {
+
+    justify-content: center;
+    display: flex;
+}
+
+.select-ind {
+    border: none;
+    display: flex;
+    background-color: black;
+    color: white;
+}
+
+/* box 5 */
+.signin {
+    font-size: 12px;
+}
+
+.co {
+    background-color: black;
+    color: white;
+    border: none;
+    align-items: center;
+    position: relative;
+    right: 10px;
+    font-weight: 700;
+}
+
+/* box-6 */
+.small3 {
+    font-size: 12px;
+}
+
+.big4 {
+    font-weight: 700;
+}
+
+/* box-7 */
+.cart {
+    display: flex;
+    font-weight: 700;
+    position: relative;
+
+}
+
+.cart i {
+    font-size: 30px;
+}
+
+.cart p {
+    position: relative;
+    top: 15px;
+}
+
+.panel {
+    background-color: #232F3E;
+    height: 39px;
+    padding: 0px 0px 0px 11px;
+    color: white;
+    display: flex;
+    align-items: center;
+
+    /* justify-content: space-evenly; */
+
+}
+
+.panelall {
+    display: flex;
+    margin-right: 10px;
+
+
+}
+
+.moreop {
+    display: flex;
+    width: 70%;
+
+}
+
+.moreop p {
+    margin: 10px;
+}
+
+/* **************main-section*************** */
+.main-section {
+    background-image: url('https://m.media-amazon.com/images/I/71spMfddxoL._SX3000_.jpg');
+    background-size: cover;
+    height: 350px;
+}
+
+.write {
+    text-align: center;
+    background-color: #f5f6f6;
+    padding: 10px 14px;
+    position: relative;
+    top: 290px;
+    border-right-width: 100px;
+
+}
+
+.dec {
+    text-decoration: none;
+    color: #2162a1;
+}
+
+/* **********main content********** */
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+.box {
+    height: 450px;
+    /* border: 2px solid black; */
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin: 15px
+}
+
+.box1-image {
+    background-image: url('https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/Stores-Gaming/FinalGraphics/Fuji_Gaming_store_Dashboard_card_1x_EN._SY304_CB564799420_.jpg');
+    /* background-size: cover; */
+    height: 350px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.name {
+    padding: 0 20px;
+}
+
+.i {
+    color: #2162a1;
+}
+
+.box2-image {
+    background-image: url('https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/BAU2024Sept/CleaningTool_1x._SY116_CB563137408_.jpg');
+    height: 350px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.box3-image {
+    background-image: url('https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2022/SITE_FLIPS/SPR_22/GW/DQC/DQC_APR_TBYB_W_BOTTOMS_1x._SY116_CB624172947_.jpg');
+    height: 350px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.box4-image {
+    background-image: url('https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2024/HomeLifestyle/HomeSummerFlip/Homepage/QuadCards/Home_Flip_Summer_2024_315_HP_NewArrivals_QuadCard_D_01_1x._SY116_CB555960040_.jpg');
+    height: 350px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.box5-image {
+    background-image: url('https://m.media-amazon.com/images/I/71xIgTqSN6L._AC_SY200_.jpg');
+    height: 350px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.box6-image {
+    background-image: url('https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2022/SITE_FLIPS/SPR_22/GW/DQC/DQC_APR_TBYB_W_SHOES_1x._SY116_CB624172947_.jpg');
+    height: 350px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.box7-image {
+    background-image: url('https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2024/HomeLifestyle/HomeSummerFlip/Homepage/QuadCards/Home_Flip_Summer_2024_316_HP_NewArrivals_QuadCard_D_02_1x._SY116_CB555960040_.jpg');
+    height: 350px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.box8-image {
+    background-image: url('https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/BAU2024Sept/Bedding_1x._SY116_CB563137408_.jpg');
+    height: 350px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+
+}
+
+/* *****************foooooooooooooooooter************** */
+footer{
+    margin-top: 15px;
+}
+.back-to-top {
+    background-color: #37475a;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+
+}
+.panel-2{
+    background-color: #232f3e;
+    height: 400px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+ul{
+    margin:15px;
+}
+ul a{
+    display:block;
+   margin:10px;
+   font-size: 0.85rem;
+   color: #dddddd;
+}
+.panel3{
+    height: 120px;
+    background-color: #232f3e;
+    border-top:1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+.logo3{
+     background-image: url('https://pngimg.com/uploads/amazon/amazon_PNG11.png');
+    background-size: cover;
+    height: 50px;
+    width: 150px;
+    display: flex;
+   justify-content: center;
+    align-items: center;
+}
+
+.copyryt{
+    background-color:#0f1111;
+    color: white;
+    height: 80px;
+   font-size: 12px;
+   margin:15px;
+}
+.co{
+     background-color:#0f1111;
+    display: flex;
+ align-items: center;
+ justify-content: center;
+ 
+   
+}
+.copy{
+    text-align: center;
+}
